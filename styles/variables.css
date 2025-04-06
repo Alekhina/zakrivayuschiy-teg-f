@@ -1,1 +1,37 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-text: Inter-Variable;
+    --accent-text: PressStart2P;
+    --font-weight-main: 400;
+    --font-weight-title: 700;
+
+    --post-width: 48.5%;
+    /* --post-width: 100%; */
+    --article-title-padding-block: 4px;
+    /* --article-title-padding-block: 6px; */
+    --content-padding-inline: 25px;
+    /* --content-padding-inline: 27px; */
+    --gap-between-posts: 48px;
+    /* --gap-between-posts: 54px; */
+    /* было 54px, поправила руками. 52px */
+
+
+    --content-padding-block: 25px;
+    --gap-between-p: 27px;
+    --gap-into-buttons: 10px;
+
+
+    --header-padding-block: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
+    --header-padding-inline: clamp(0.875rem, -1.5128rem + 10.1878vw, 7.65625rem);
+    /* 700/1440 % */
+
+
+    --contour-color: #000;
+    --animation-fill-color: #FF0000;
+
+    --dialog-window-width: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
+    --dialog-window-height: 191px;
+    --dialog-window-padding-block: 30px;
+    --dialog-window-padding-inline: 30px;
+    /* 45 tel */
+}

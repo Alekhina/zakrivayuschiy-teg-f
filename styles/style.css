@@ -173,9 +173,9 @@ img {
   color: rgb(0 0 0 / 0.50);
   mix-blend-mode: hard-light;
   text-shadow:
-  -1px 0 #fff, 
-  0 1px #fff, 
-  1px 0 #fff, 
+  -1px 0 #fff,
+  0 1px #fff,
+  1px 0 #fff,
   0 -1px #fff;
 }
 
@@ -207,7 +207,7 @@ img {
 
 /* Стили  кнопок по наведению курсора (перекрашивание черным) */
 
-.card__like-button:focus, 
+.card__like-button:focus,
 .save-button:focus,
 .close-button:focus {
   outline: none;

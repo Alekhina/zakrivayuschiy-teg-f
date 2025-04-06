@@ -226,7 +226,7 @@ img {
   left: -100%;
   top: 0;
   transform: translateX(0%);
-  transition: all 0.5s ease-in-out;
+  transition: translateX 0.5s ease-in-out;
 }
 
 .card__like-button:hover:after, 
@@ -238,7 +238,7 @@ img {
   height: 100%;
   background-color: #000;
   transform: translateX(100%);
-  transition: all 0.5s ease-in-out;
+  transition: translateX 0.5s ease-in-out;
 }
 
 /* Кнопка "Сохранить" */
@@ -299,7 +299,7 @@ img {
   align-items: center;
 }
 
-.dialog-window-content p {
+.dialog-window-content span {
   width: 234px;
   line-height: 150%;
 }
@@ -320,7 +320,7 @@ img {
   gap: 30px;
 }
 
-.dialog-window .close-button p {
+.dialog-window .close-button span {
   text-transform: uppercase;
   /* font-size: 14px; */
 }

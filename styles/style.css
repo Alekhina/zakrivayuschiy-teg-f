@@ -55,7 +55,7 @@
 /* Акцент */
 
 .decor-text {
-  font-family: var(--accent-text);
+  font-family: var(--accent-text), fantasy;
 }
 
 /* Стили карточек */

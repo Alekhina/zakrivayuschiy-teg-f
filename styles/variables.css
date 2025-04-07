@@ -5,27 +5,17 @@
     --font-weight-main: 400;
     --font-weight-title: 700;
 
-    /* --post-width: 48.5%; */
     --post-width: clamp(375px, 100%, 700px);
-    /* --post-width: 100%; */
     --article-title-padding-block: 4px;
-    /* --article-title-padding-block: 6px; */
     --content-padding-inline: 25px;
-    /* --content-padding-inline: 27px; */
     --gap-between-posts: 51px;
-    /* --gap-between-posts: 54px; */
-    /* было 54px, поправила руками. 52px */
-
 
     --content-padding-block: 25px;
     --gap-between-p: 27px;
     --gap-into-buttons: 10px;
 
-
     --header-padding-block: clamp(7.5rem, 7.3239rem + 0.7512vw, 8rem);
     --header-padding-inline: clamp(0.875rem, -1.5128rem + 10.1878vw, 7.65625rem);
-    /* 700/1440 % */
-
 
     --contour-color: #000;
     --animation-fill-color: #FF0000;
@@ -37,5 +27,13 @@
     --dialog-window-height: 191px;
     --dialog-window-padding-block: 30px;
     --dialog-window-padding-inline: 30px;
-    /* 45 tel */
+}
+
+@media (max-width: 375px) {
+    :root {
+      --article-title-padding-block: 3px;
+      --gap-between-posts: 53px;
+      --save-button-height: 80px;
+      --save-button-width: 306px;
+    }
 }

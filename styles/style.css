@@ -344,5 +344,5 @@
   .save-button {
     grid-template-columns: 1fr;
     grid-template-rows: min-content min-content;
-  }  
+  }
 }

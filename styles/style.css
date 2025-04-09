@@ -177,27 +177,27 @@
 
 /* Фильтры для картинок */
 
-.img-contrast-blur {
+.contrast-blur-filter {
   filter: contrast(0.7) blur(0.1rem);
 }
 
-.img-bw {
+.black-white-filter {
   filter: grayscale(0.6);
 }
 
-.img-blur {
+.blur-filter {
   filter: blur(0.1rem);
 }
 
-.img-sepia {
+.sepia-filter {
   filter: sepia(0.5);
 }
 
-.img-contrast-sepia {
+.contrast-sepia-filter {
   filter: contrast(0.9) sepia(0.3);
 }
 
-.img-saturation {
+.saturation-filter {
   filter: saturate(0.6);
 }
 

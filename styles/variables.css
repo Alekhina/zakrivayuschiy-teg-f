@@ -8,9 +8,9 @@
     --post-width: clamp(375px, 100%, 700px);
     --article-title-padding-block: 4px;
     --content-padding-inline: 25px;
-    --gap-between-posts: 51px;
+    --gap-between-posts: 48px;
 
-    --content-padding-block: 25px;
+    --content-padding-block: 24px;
     --gap-between-p: 27px;
     --gap-into-buttons: 10px;
 
@@ -20,11 +20,13 @@
     --contour-color: #000;
     --animation-fill-color: #FF0000;
 
-    --save-button-height: 51px;
-    --save-button-width: 335px;
+    /* --save-button-height: 51px; */
+    /* --save-button-width: 335px; */
+
+    --save-button-padding-block: 15px;
+    --save-button-padding-inline: 20px;
 
     --dialog-window-width: clamp(21.3125rem, 21.0484rem + 1.1268vw, 22.0625rem);
-    --dialog-window-height: 191px;
     --dialog-window-padding-block: 30px;
     --dialog-window-padding-inline: 30px;
 }
@@ -32,8 +34,8 @@
 @media (max-width: 375px) {
     :root {
       --article-title-padding-block: 3px;
-      --gap-between-posts: 53px;
-      --save-button-height: 80px;
-      --save-button-width: 306px;
+      --gap-between-posts: 50px;
+      /* --save-button-height: 80px; */
+      /* --save-button-width: 306px; */
     }
 }
